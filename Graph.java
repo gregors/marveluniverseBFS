@@ -159,7 +159,7 @@ public class Graph
 		for (String s : listOfNodes()){
 			int temp=(bfs(nodeName, s)).size();
 			if (x%100==0)
-				System.out.println(x + " nodes have been travlled to");
+				System.out.println(x + " nodes have been travelled to");
 			x++;
 			if (temp > degree){
 				degree = temp;
